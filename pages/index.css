@@ -43,8 +43,7 @@
 }
 
 .main {
-  max-width: 984px;
-  margin: 0 auto;
+  margin: auto;
 }
 
 .lead {
@@ -93,8 +92,8 @@
 }
 
 .intro {
-  width: 690px;
-  margin: 0 0 92px;
+  max-width: 984px;
+  margin: 0 auto 92px;
 }
 
 .intro__title {
@@ -137,4 +136,17 @@
 
 .intro__list-number {
   font-weight: 200;
+}
+
+.photo-grid {
+  margin: 0 auto;
+  justify-content: center;
+  max-width: calc(100% - 96px);
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+  gap: 16px;
+}
+
+.photo-grid__item {
+ width: 100%;
 }
