@@ -1,0 +1,36 @@
+@font-face {
+  font-family: 'Inter';
+  src: url(../vendor/Inter_Web/inter.css);
+}
+
+.body {
+  background-color: #2A2C2F;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1184px;
+  margin: auto;
+}
+
+.header__logo {
+  width: 176px;
+  height: 52px;
+}
+
+.header__lang-links {
+  display: flex;
+  align-items: end;
+}
+
+.header__lang-link {
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Inter';
+}
+
+.header__lang-link:first-of-type {
+  text-decoration: underline;
+  margin: 0 18px 0 0;
+}
