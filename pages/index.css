@@ -5,6 +5,7 @@
 
 .body {
   background-color: #2A2C2F;
+  color: #fff;
 }
 
 .page {
@@ -17,7 +18,7 @@
   display: flex;
   justify-content: space-between;
   max-width: 1184px;
-  margin: auto;
+  margin: 0 auto 56px;
 }
 
 .header__logo {
@@ -31,8 +32,8 @@
 }
 
 .header__lang-link {
-  text-decoration: none;
   color: #fff;
+  text-decoration: none;
   font-family: 'Inter';
 }
 
@@ -42,11 +43,12 @@
 }
 
 .main {
-
+  max-width: 984px;
+  margin: 0 auto;
 }
 
 .lead {
-  margin: auto;
+  margin: 0 auto 92px;
   text-align: center;
   max-width: 984px;
 }
@@ -59,7 +61,6 @@
   font-weight: 900;
   font-size: 96px;
   line-height: 100px;
-  color: #FFF;
 }
 
 .lead__subtitle {
@@ -71,7 +72,6 @@
   font-size: 30px;
   line-height: 36px;
   text-align: center;
-  color: #FFF;
 }
 
 .lead__image {
@@ -90,4 +90,51 @@
   text-transform: uppercase;
   color: #fff;
   text-align: left;
+}
+
+.intro {
+  width: 690px;
+  margin: 0 0 92px;
+}
+
+.intro__title {
+  margin: 0 0 40px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 58px;
+}
+
+.intro__text {
+  margin: 0 0 33px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.intro__list {
+  list-style: none;
+  margin: 0;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 18px;  
+}
+
+.intro__list-text {
+  padding: 0;
+  margin: 0;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 18px;  
+}
+
+.intro__list-number {
+  font-weight: 200;
 }
