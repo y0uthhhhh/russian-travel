@@ -1,0 +1,19 @@
+.header__lang-links {
+    display: flex;
+    align-items: end;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+@media screen and (max-width: 720px) {
+  .header__lang-links {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+  }
+}
