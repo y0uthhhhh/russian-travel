@@ -4,7 +4,7 @@
     max-width: 1184px;
     height: calc(100vw * 740 / 1184);
     max-height: 740px;
-    background-image: url(../images/cover__background.jpg);
+    background-image: url(../../images/cover__background.jpg);
     background-size: cover;
     display: flex;
     flex-direction: column;
