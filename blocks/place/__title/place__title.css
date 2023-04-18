@@ -2,7 +2,7 @@
     grid-column: 1;
     grid-row: 1;
     margin: 0;
-    font-family: 'Inter';
+    font-family: 'Inter', Arial, sans-serif;
     font-style: normal;
     font-weight: 900;
     font-size: 72px;
@@ -11,7 +11,7 @@
 
 @media screen and (max-width: 984px) {
   .place__title {
-    font-family: 'Inter';
+    font-family: 'Inter', Arial, sans-serif;
     font-style: normal;
     font-weight: 900;
     font-size: 42px;
@@ -23,7 +23,7 @@
   .place__title {
     margin: auto;
     width: calc(100% - 32px);
-    font-family: 'Inter';
+    font-family: 'Inter', Arial, sans-serif;
     font-style: normal;
     font-weight: 900;
     font-size: 32px;
