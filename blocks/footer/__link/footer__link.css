@@ -3,6 +3,7 @@
     text-decoration: none;
     color: #fff;
     transition: .4s;
+    width: fit-content;
 }
 
 .footer__link:last-of-type {
@@ -13,7 +14,7 @@
     opacity: .8;
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 760px) {
   .footer__link {
     margin: 0 0 32px;
   }

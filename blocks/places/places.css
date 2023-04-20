@@ -3,10 +3,6 @@
     margin: 0 auto 92px;
   }
 
-.place:last-of-type {
-    margin: 0;
-  }
-
 @media screen and (max-width: 1024px) {
 	.places {
     max-width: 928px;
@@ -16,10 +12,11 @@
 @media screen and (max-width: 984px) {
 	.places {
     max-width: 720px;
+    margin-bottom: 90px;
   }
 }
   
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 760px) {
 	.places {
     max-width: 540px;
     margin-bottom: 66px;

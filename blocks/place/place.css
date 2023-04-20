@@ -5,6 +5,10 @@
     margin: 0 0 80px;
 }
 
+.place:last-of-type {
+  margin-bottom: 0;
+}
+
 @media screen and (max-width: 1024px) {
   .place {
     gap: 48px 32px;
@@ -20,8 +24,11 @@
   }
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 760px) {
   .place {
+    max-width: 320px;
+    margin-left: auto;
+    margin-right: auto;
     gap: 32px;
     width: 100%;
     justify-content: center;

@@ -10,12 +10,9 @@
     z-index: 1;
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 760px) {
   .cover__subtitle {
     max-width: 288px;
-    font-family: 'Inter', Arial, sans-serif;
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 16px;
   }

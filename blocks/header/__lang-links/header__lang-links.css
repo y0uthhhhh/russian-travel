@@ -8,11 +8,8 @@
     line-height: 28px;
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 760px) {
   .header__lang-links {
-    font-family: 'Inter', Arial, sans-serif;
-    font-style: normal;
-    font-weight: 400;
     font-size: 18px;
     line-height: 20px;
   }
